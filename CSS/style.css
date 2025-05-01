@@ -1,0 +1,21 @@
+body {
+    font-family: arial;
+    background-color: lightblue;
+    height: 100hv;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.container {
+    background-color: yellow;
+    padding:5px;
+    width:300px;
+    height:300px;
+    overflow-y: scroll;
+    border:15px solid #ff00ff40;
+    border-radius:20px;
+    box-shadow:0px 0px 50px #33002240;
+    transition: all 2s ease;
+}
